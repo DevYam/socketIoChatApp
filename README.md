@@ -9,4 +9,6 @@ This is a simple chat app build with nodejs and mongo db
 3. ``` npm install ```
 4. ``` cf push ```
 
-* cf - Cloud Foundry
+
+
+ps. * cf => Cloud Foundry
