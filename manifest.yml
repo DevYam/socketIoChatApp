@@ -1,0 +1,5 @@
+---
+applications:
+  - name: nodechatapp
+    path: nodechatapp
+    memory: 1024M
