@@ -4,6 +4,7 @@ var app = express()// Here the express() is a instance of express that we requir
 var http = require('http').Server(app)
 var io = require('socket.io')(http)
 var mongoose = require('mongoose')
+<<<<<<< HEAD
 
 app.all('/*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -13,7 +14,14 @@ app.all('/*', function(req, res, next) {
 
 var messages = [
 ]
+=======
+var cors = require('cors')
+>>>>>>> a8330e2470777fbe52c6197e13ce971b1082a043
 
+var messages = [
+]
+
+app.use(cors())
 app.use(express.static(__dirname))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended : false}) )

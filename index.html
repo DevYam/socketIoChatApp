@@ -53,7 +53,11 @@
                 data.forEach(addMessages)
             }
         });
+<<<<<<< HEAD
         xhr.open("GET", "https://divyamchat.cfapps.eu10.hana.ondemand.com/messages");
+=======
+        xhr.open("GET", "http://localhost:8080/messages");
+>>>>>>> a8330e2470777fbe52c6197e13ce971b1082a043
         xhr.setRequestHeader("Access-Control-Allow-Origin",'*');
         xhr.send(data);
     }
@@ -66,7 +70,11 @@
                 console.log(this.responseText);
             }
         });
+<<<<<<< HEAD
         xhr.open("POST", "https://divyamchat.cfapps.eu10.hana.ondemand.com/messages");
+=======
+        xhr.open("POST", "http://localhost:8080/messages");
+>>>>>>> a8330e2470777fbe52c6197e13ce971b1082a043
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader("Access-Control-Allow-Origin",'*');
         xhr.send(message);
