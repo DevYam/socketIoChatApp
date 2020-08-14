@@ -11,4 +11,4 @@ This is a simple chat app build with nodejs and mongo db
 
 
 
-ps. * cf => Cloud Foundry
+*** cf => Cloud Foundry
